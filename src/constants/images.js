@@ -34,9 +34,15 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import React from "../assets/React-icon.png";
+import Mysql from "../assets/mysql.png";
+import nodejs from "../assets/nodejs.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
+  nodejs,
+  Mysql,
+  React,
   email,
   mobile,
   api,

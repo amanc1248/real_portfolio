@@ -37,19 +37,19 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Contact Me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
           <a href="mailto:amanc1248@gmail.com" className="p-text">amanc1248@gmail.com</a>
         </div>
-        <div className="app__footer-card">
+        {/* <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+9779804355969" className="p-text">+9779804355969</a>
-        </div>
+        </div> */}
       </div>
-      {!isFormSubmitted ? (
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
@@ -74,7 +74,7 @@ const Footer = () => {
             Thank you for getting in touch!
           </h3>
         </div>
-      )}
+      )} */}
     </>
   );
 };
